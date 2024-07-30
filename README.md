@@ -65,8 +65,4 @@ npm run run 2.6
 
 リモートリポジトリの変更 2
 
-<<<<<<< Updated upstream
-リモートリポジトリの変更 2
-=======
 ローカルの変更 3
->>>>>>> Stashed changes
