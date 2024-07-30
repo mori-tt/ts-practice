@@ -54,5 +54,8 @@ npm run run 2.6
 ## 注意事項
 
 - `src/{chapter}/index.ts` ファイルが存在することを確認してください。
+
+
+さようなら
 - `tsconfig.json` ファイルがプロジェクトのルートディレクトリに存在することを確認してください。
 # ts-practice
