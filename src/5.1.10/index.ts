@@ -1,0 +1,44 @@
+// console.log("Hello");
+
+// class C {
+//   static {
+//     console.log("uhyo");
+//   }
+// }
+
+// console.log("world!");
+
+// class User {
+//   #age: number = 0;
+//   getAge() {
+//     return this.#age;
+//   }
+//   setAge(age: number) {
+//     if (age < 0 || age > 150) {
+//       return;
+//     }
+//     this.#age = age;
+//   }
+// }
+
+// class User {
+//   static adminUser: User;
+//   static {
+//     this.adminUser = new User();
+//     this.adminUser.#age = 9999;
+//   }
+
+//   #age: number = 0;
+//   getAge() {
+//     return this.#age;
+//   }
+
+//   setAge(age: number) {
+//     if (age < 0 || age > 150) {
+//       return;
+//     }
+//     this.#age = age;
+//   }
+// }
+
+// console.log(User.adminUser.getAge());
