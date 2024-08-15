@@ -7,13 +7,18 @@
     // "composite": true,                                /* Enable constraints that allow a TypeScript project to be used with project references. */
     // "tsBuildInfoFile": "./",                          /* Specify the folder for .tsbuildinfo incremental compilation files. */
     // "disableSourceOfProjectReferenceRedirect": true,  /* Disable preferring source files instead of declaration files when referencing composite projects */
+    /* Input Files */
+    // "include": ["./src/**/*.ts"],                     /* Specify an array of glob patterns that match files to be included in compilation. */
+    // "exclude": ["node_modules", "**/*.spec.ts"],      /* Specify an array of glob patterns that match files to be excluded from compilation. */
+    // "files": ["core.ts", "sys.ts", "types.ts"],       /* Specify an array of filenames or patterns to include in the program. */
+
     // "disableSolutionSearching": true,                 /* Opt a project out of multi-project reference checking when editing. */
     // "disableReferencedProjectLoad": true,             /* Reduce the number of projects loaded automatically by TypeScript. */
 
     /* Language and Environment */
-    "target": "es2020" /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */,
+    "target": "es2021" /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */,
     "lib": [
-      "es2020",
+      "es2021",
       "dom"
     ] /* Specify a set of bundled library declaration files that describe the target runtime environment. */,
     // "jsx": "preserve",                                /* Specify what JSX code is generated. */
